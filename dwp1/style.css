@@ -1,0 +1,75 @@
+.body {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	background-color: : #fafafa;
+	font-family: verdana, sans;
+}
+
+#header{
+	background-image:url(./maul.jpg);
+	background-repeat: repeat-x;
+	padding: 50px;
+}
+	#judul{
+		font-size: 30px;
+		font-weight: bold;
+		font-family:Verdana;
+		color: white;
+		text-shadow: 3px 3px black ;
+		padding-left:3px;
+		padding-top:3px;
+		text-align: center;
+		}
+	#tag{
+		font-size:20px;
+		font-weight:bold;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		color: red;
+		text-shadow:1px 1px black;
+		padding-left:50px;
+		padding-top:3px;
+		text-align: center;
+	}
+
+
+.bodyres{
+	margin-bottom: 10px;
+}
+
+.bodyres .bod{
+	background-color: whitesmoke;
+	float: left;
+	width: 25%;
+	text-align: justify;
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #ddd;
+}
+
+.bodyres .bod h3, .bodyres .bod p{
+	margin: 5px;
+}
+
+#footer{
+	text-align: center;
+	background-color: cyan;
+	padding: 5px;
+}
+
+@media (max-width: 720px){
+	.bodyres .bod{
+		background-color: lightgreen;
+		float: left;
+		width: 100%;
+	}
+}
+
+@media (min-width: 720px) and (max-width: 992px){
+	.bodyres .bod{
+		background-color: pink;
+		float: left;
+		width: 50%;
+	}
+}
